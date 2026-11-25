@@ -1,11 +1,11 @@
 Origin: samcejko
-Label: samcejko
+Label: samcejko (Archive)
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm
 Components: main
-Description: Free apps for jailbroken iOS 6 by samcejko
+Description: Free apps for jailbroken iOS 6 by samcejko. Partially archived by minhtridotnet
 MD5Sum:
  d006faf0d4ad1235c872f7cd7b5f328c 23569 Packages
  06f632c69535c5273b67c56cefcf0193 6304 Packages.gz
