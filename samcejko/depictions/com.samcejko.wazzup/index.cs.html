@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="cs"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>W.I.P. Wazzup (W.I.P)</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<div class="lang"><a href="index.html">English</a></div>
+<div class="hdr">
+  <img class="appicon" src="../../icons/com.samcejko.wazzup-rounded-dd6c487a30.png" alt="">
+  <div class="hdrt"><h1>W.I.P. Wazzup (W.I.P)</h1><p>WhatsApp jako propojené zařízení: hovory 1:1 i video, chaty</p></div>
+</div>
+<div class="box"><p>Neoficiální klient WhatsAppu pro iPhone i iPad v lesklém vzhledu iOS 6. Propojí se s tvým účtem stejně jako WhatsApp Web a Desktop - jednou naskenuješ QR kód z WhatsAppu v telefonu - a pak volá i přijímá hovory 1:1 i video a posílá text, skupinové chaty, média a hlasové zprávy, všechno ze zařízení. Běží to celé v aplikaci: vlastní moderní TLS 1.2, Noise handshake, koncové šifrování Signal a vrstva pro hovory, takže systém z roku 2012 mluví s dnešními servery WhatsAppu přímo. Bez proxy a bez serveru uprostřed: tvoje zprávy ani klíče zařízení neopustí.</p></div>
+<h2>Funkce</h2>
+<div class="box"><ul>
+<li>Rozpracovaný klient propojeného zařízení WhatsApp; omezení hardwarového testování jsou uvedena níže.</li>
+<li>Propojení účtu QR kódem s klíči uloženými v zařízení.</li>
+<li>Textové konverzace a skupinové chaty.</li>
+<li>Média a hlasové zprávy, potvrzení doručení a přečtení.</li>
+<li>Sestavení obsahuje kód příchozích a odchozích hlasových a videohovorů mezi dvěma účastníky.</li>
+<li>TLS, Noise a šifrovací vrstva Signal přímo v zařízení.</li>
+<li>Hovorová vrstva zahrnuje příjem MLow a odesílání Opus.</li>
+<li>Klasický vzhled iOS 6, rozvržení pro iPhone i iPad, čeština a angličtina.</li>
+</ul></div>
+
+<h2>Dobré vědět</h2>
+<div class="box"><ul>
+<li>Verze 0.1.2 byla pouze sestavena, na výslovné přání bez testování. Jde stále o W.I.P.</li>
+<li>Šifrované odesílání skupinových zpráv zatím není implementované; zpráva se označí jako neodeslaná, místo pokusu o nesprávné individuální šifrování.</li>
+<li>Zvukové/video hovory nejsou touto aktualizací potvrzené jako funkční. Chybějící mediální spojení se nepovažuje za úspěšný hovor.</li>
+<li>Příjem při ukončené aplikaci není vyřešený. Obnova po návratu do popředí a starší VoIP keep-alive nenahrazují push notifikace.</li>
+<li>Bod #22 je návrh Reddit klienta, nikoli chyba WhatsAppu.</li>
+</ul></div>
+
+
+
+
+<h2>Co je nové ve verzi 0.1.2</h2>
+<div class="box"><ul>
+<li>#25/#70: obnova spojení běží na vlákně klienta; tichý chat už nevyvolává opakované restarty. Odstraněné blokující síťové pokusy z hlavního vlákna a souběh starého a nového připojení.</li>
+<li>#36: tlačítko obnovení spojení se stavem připojování. Samostatné Zrušit u hlasovky, zrušení při odchodu nebo zamčení a ochrana před opožděným odesláním.</li>
+<li>#25: opakované načtení chybějících avatarů po prodlevě nebo ruční obnově.</li>
+<li>#25/#83: hovor ukazuje připojování až do příchodu zvuku, časový limit při chybějícím médiu a chyba při nespuštěném mikrofonu.</li>
+<li>#52: balíček armv7 se nabízí pro iOS 6–10. Pouze kompilace, bez provozních testů.</li>
+</ul></div>
+
+<h2>Balíček</h2>
+<div class="box list">
+  <div class="row"><span class="k">Verze</span><span class="v">0.1.2</span></div>
+  <div class="row"><span class="k">Velikost</span><span class="v">3.8 MB</span></div>
+  <div class="row"><span class="k">Aktualizováno</span><span class="v">2026-10-27</span></div>
+  <div class="row"><span class="k">Vyžaduje</span><span class="v">iOS 6.0 nebo novější, před iOS 11.0 (32bit); iOS 15.0 nebo novější (64bit)</span></div>
+</div>
+<div class="box list">
+  <a class="row link" href="../../feedback/index.cs.html"><span class="k">Nahlásit chybu nebo poslat nápad</span><span class="chev">›</span></a>
+
+  <a class="row link" href="https://github.com/samcejko/whatsapp-ios6"><span class="k">Zdrojový kód na GitHubu</span><span class="chev">›</span></a>
+
+
+  <a class="row link" href="https://ko-fi.com/samcejko"><span class="k">Podpořit vývoj</span><span class="chev">›</span></a>
+
+</div>
+
+<div class="box list">
+  <a class="row link" href="apple-magnifier://install?url=https%3A%2F%2Fgithub.com%2Fsamcejko%2Fwhatsapp-ios6%2Freleases%2Fdownload%2Fv0.1.2%2FWazzup-0.1.2-arm64.ipa"><span class="k">Nainstalovat přes TrollStore (iOS 14–17, bez jailbreaku)</span><span class="chev">›</span></a>
+  <a class="row link" href="https://github.com/samcejko/whatsapp-ios6/releases/download/v0.1.2/Wazzup-0.1.2-arm64.ipa"><span class="k">Stáhnout IPA pro TrollStore</span><span class="chev">›</span></a>
+</div>
+
+<p class="foot">Neoficiální aplikace od samcejko, bez vazby na Twitch, Google, Apple, TikTok, Instagram, Metu, Spotify, Kick, NVIDIA, Mojang, Microsoft, OpenRouter, Vine, X, diVine ani projekty Moonlight, Sunshine a Apollo.</p>
+<p class="foot"><a href="../../index.html">http://repo.samcejko.eu/</a></p>
+
+
+
+</body></html>

@@ -1,0 +1,498 @@
+Package: com.samcejko.browser
+Name: Surfari
+Description: A modern-web browser for jailbroken iOS 6
+ Surfari opens today's websites on iOS 6 devices. It brings its own TLS 1.2
+ connections with current root certificates, rewrites modern CSS and
+ JavaScript for the iOS 6 engine, and adds ad blocking, a reader view, saved
+ passwords and private browsing. Made for iOS 6.x on armv7 devices (tested on
+ an iPad 2 with iOS 6.1.2). The page engine is iOS 6's own WebKit, which gets
+ no security updates: read the security notice in the README.
+Maintainer: samcejko
+Author: samcejko
+Section: Networking
+Depends: firmware (>= 6.0), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Version: 1.2.0
+Installed-Size: 6164
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.browser/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.browser-rounded-bf38eed7b5.png
+Filename: debs/com.samcejko.browser_1.2.0_iphoneos-arm.deb
+Size: 2443414
+MD5sum: 58db8ad509da1a42ae22ce985190cd8a
+SHA1: 461ccadb8d26dd43fd5849246f8d3fd6045c1d91
+SHA256: 91f9b27e665d5045e1bd66fdee9869f39fe24305a5038e1c8ee046ef50482b4c
+
+Package: com.samcejko.browser
+Name: Surfari
+Description: A modern-web browser for jailbroken iOS 6
+ Surfari opens today's websites on iOS 6 devices. It brings its own TLS 1.2
+ connections with current root certificates, rewrites modern CSS and
+ JavaScript for the iOS 6 engine, and adds ad blocking, a reader view, saved
+ passwords and private browsing. Made for iOS 6.x on armv7 devices (tested on
+ an iPad 2 with iOS 6.1.2). The page engine is iOS 6's own WebKit, which gets
+ no security updates: read the security notice in the README.
+Maintainer: samcejko
+Author: samcejko
+Section: Networking
+Depends: firmware (>= 6.0), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Version: 1.2.2
+Installed-Size: 6240
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.browser/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.browser-rounded-bf38eed7b5.png
+Filename: debs/com.samcejko.browser_1.2.2_iphoneos-arm.deb
+Size: 2491334
+MD5sum: 2515db646ecdcf4f6ee22173969de565
+SHA1: 5ebb71e78494180edf683204491d030d1a2eb358
+SHA256: f2da408d9b365b6c3f70121b5d63140d4622d320a913d387b0e690ef8973845e
+
+Package: com.samcejko.twitcher
+Name: Twitcher
+Description: Twitch client for iOS 5–10 (universal): live streams, videos, clips and chat
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 0.2.3
+Installed-Size: 1716
+Homepage: https://github.com/samcejko/twitch-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.twitcher/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.twitcher-rounded-d90d3fb307.png
+Filename: debs/com.samcejko.twitcher_0.2.3_iphoneos-arm.deb
+Size: 948300
+MD5sum: 968499b0fa656c575d5a9d82e9b7a1ff
+SHA1: 1e8364360ba0653cf382b1ba5edb355eb31d536f
+SHA256: 60827dd21d206cc5b9d3c371dcf919e48cba1ec2a52643e3b149de209da82b36
+
+Package: com.samcejko.chirpie
+Name: Chirpie
+Description: Unofficial X / Twitter reader for iOS 6 (universal), in English and Czech: your home timeline (For You and Following), tweet threads, profiles with tweets, replies, media and likes, search (Top, Latest, People), trends, photos and videos, and bookmarks kept on the device. Needs its helper on your own server.
+Maintainer: samcejko
+Author: samcejko
+Section: Social
+Depends: firmware (>= 6.0), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Version: 0.1.0
+Installed-Size: 1448
+Homepage: https://github.com/samcejko/twitter-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.chirpie/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.chirpie-rounded-3e9470b6d2.png
+Filename: debs/com.samcejko.chirpie_0.1.0_iphoneos-arm.deb
+Size: 796394
+MD5sum: 05ed3022e75b1fdbd0e9b57916b3e99d
+SHA1: abc3e9815897fb7643acce9b46b429b9eeb814ac
+SHA256: 09a5180b3fb11836ec35c693b5cf9f668bcf6c3220a44c406148c628438390ee
+
+Package: com.samcejko.shutter
+Name: Gramify
+Description: Unofficial photo, video and chat client for iOS 5–10 (universal), in English and Czech: sign in with your account, home feed, stories and highlights, reels, profiles, likes, comments and direct messages with photos and voice messages.
+Maintainer: samcejko
+Author: samcejko
+Section: Social
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 0.3.8
+Homepage: https://github.com/samcejko/instagram-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.shutter/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.shutter-rounded-abc13c3ff2.png
+Filename: debs/com.samcejko.shutter_0.3.8_iphoneos-arm.deb
+MD5sum: 0e66a24437d48246f15326f862cd6d1e
+SHA1: 3815eb75ced148244234c227698992c8f69c4603
+SHA256: 16cdcffb51ae3ab47732c156fde41d5e705a7b52f0d137f0c1ceec7a0f303b10
+Size: 1580832
+
+Package: com.samcejko.shutter
+Name: Gramify
+Description: Unofficial photo, video and chat client for iOS 5–10 (universal), in English and Czech: sign in with your account, home feed, stories and highlights, reels, profiles, likes, comments and direct messages with photos and voice messages.
+Maintainer: samcejko
+Author: samcejko
+Section: Social
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 0.3.21
+Installed-Size: 3160
+Homepage: https://github.com/samcejko/instagram-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.shutter/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.shutter-rounded-abc13c3ff2.png
+Filename: debs/com.samcejko.shutter_0.3.21_iphoneos-arm.deb
+Size: 2234474
+MD5sum: a85aeed08a4c3acbe677979ca0384954
+SHA1: d017cbf45f388597b95d2af60494dd094be45644
+SHA256: 6c8425452550ea48b3348ebf5bcbcdadb0e6baf5947c24488585c5db7fc8fb5f
+
+Package: com.samcejko.tubie
+Name: Tubie
+Description: YouTube client for iOS 6 (universal): videos, shorts, live streams, channels, playlists, comments
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 6.0), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Version: 0.4.3
+Homepage: https://github.com/samcejko/youtube-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.tubie/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.tubie-rounded-e688109d2f.png
+Filename: debs/com.samcejko.tubie_0.4.3_iphoneos-arm.deb
+MD5sum: 8415d11de1bf34bfb00120b50fd5faff
+SHA1: 045ceef30f013b6478ebc21c680d4612cdd65218
+SHA256: e61891211bc428c56ce06a3203b7abc40a7bfe07d5ca2d513f74058e1891ac28
+Size: 982956
+
+Package: com.samcejko.tubie
+Name: Tubie
+Description: YouTube client for iOS 5-10 (universal): videos, shorts, live streams, channels, playlists, comments
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 0.5.7
+Installed-Size: 2060
+Homepage: https://github.com/samcejko/youtube-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.tubie/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.tubie-rounded-e688109d2f.png
+Filename: debs/com.samcejko.tubie_0.5.7_iphoneos-arm.deb
+Size: 1131026
+MD5sum: 40e55c2b985b6c89875ec9b991c196c9
+SHA1: 41b4643089b78e6fb827a338484bd71f1de9bc88
+SHA256: f51072d0f7770be2a0454480420c34908321178320e5ae190c4f6c15eb7f02bb
+
+Package: com.samcejko.tikie
+Name: TikTak
+Description: Unofficial TikTok viewer for iOS 6 (universal), in English and Czech: a For You feed that learns what you like, search, hashtags and sounds, captions, photo posts, TikTok LIVE, comments with replies, creator profiles and saved videos. Needs its helper on your own server.
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 6.0), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Version: 0.3.1
+Installed-Size: 1692
+Homepage: https://github.com/samcejko/tiktok-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.tikie/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.tikie-rounded-72d125e005.png
+Filename: debs/com.samcejko.tikie_0.3.1_iphoneos-arm.deb
+Size: 997956
+MD5sum: 95030ac4e92b13ad645fe44237a2e36a
+SHA1: ecb903e732e1b726de889870b59dba6f660e6243
+SHA256: e57933228cb89fc912d929fec00af4d1d2c0140e16ad35aa77adcf40a99f1247
+
+Package: com.samcejko.tikieplus
+Name: TikTak+
+Description: Direct TikTok viewer with Explore, public profiles, video and photo playback, comments, saved posts and verified local session import. No helper server required; some TikTok account/search endpoints may be unavailable.
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 6.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 0.5.7
+Installed-Size: 2072
+Homepage: https://github.com/samcejko/tiktok-plus-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.tikieplus/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.tikieplus-rounded-72d125e005.png
+Filename: debs/com.samcejko.tikieplus_0.5.7_iphoneos-arm.deb
+Size: 1208006
+MD5sum: 1550e705025306ee78dc113d755e3573
+SHA1: 4eaef8f04f99139761703311329dd2c45e6fbd1d
+SHA256: 546b0b7cff29bc21d0210aee60c84b0d9b7abf77cf0ac53e2e0b24e75d935b8a
+
+Package: com.samcejko.muzika
+Name: Muzika
+Description: Unofficial YouTube Music client for iOS 6 (universal), in English and Czech, that plays your Apple Music library too: Home, Explore, moods and charts, Apple Music charts, search, albums, artists, playlists, song radio, synced lyrics, downloads to play offline, your own playlists, Spotify and YouTube playlist import, crossfade, sleep timer, data saver, an editable queue kept between launches, the lock screen controls. No account needed for YouTube Music.
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 0.1.4
+Installed-Size: 1888
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.muzika/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.muzika-rounded-ed27a8a622.png
+Filename: debs/com.samcejko.muzika_0.1.4_iphoneos-arm.deb
+Size: 1119918
+MD5sum: a0fa0b84310ab15e4d6cfdfbca4db734
+SHA1: 6a1e77496d40b4cc8bbb0d6e73ecc3b3c22bd1a6
+SHA256: 8de20ca6a91987b33cc76ee0934bbe6d5450be4a85875d7e1642b35359fc80ef
+
+Package: com.samcejko.cityvod
+Name: City VOD
+Description: Unofficial South Park Studios client for iOS 6 (universal): episodes, clips and subtitles
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 6.0), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Version: 0.1.4
+Installed-Size: 1728
+Homepage: https://github.com/samcejko/southpark-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.cityvod/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.cityvod-rounded-111bc9a853.png
+Filename: debs/com.samcejko.cityvod_0.1.4_iphoneos-arm.deb
+Size: 1003646
+MD5sum: f47522bba77c3313277e2bc093cab7d0
+SHA1: 71c5f123f179e74358198abdb24ae5cfedf9a9de
+SHA256: 2423ab8994a664a35b27b471c4ff3ad4f4d870f956ce498559959abe2f119b37
+
+Package: com.samcejko.vidbox
+Name: Vidbox
+Description: Native Vidbox client for classic iOS.
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 0.1.6
+Installed-Size: 1180
+Homepage: https://github.com/samcejko/vidbox-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.vidbox/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.vidbox.png
+Filename: debs/com.samcejko.vidbox_0.1.6_iphoneos-arm.deb
+Size: 662324
+MD5sum: 8940930aadd3753e891efe7edff74b03
+SHA1: af54fcd71b7839e908eb33a7aab5f02e746f8524
+SHA256: 4ead75409f2d22e4a87c1d6055c82bc3157a0234f67b1a4aead228a67720fd61
+
+Package: com.samcejko.artlight
+Name: Artlight
+Description: Game streaming from your own PC for iOS 6 (universal): plays games from Sunshine and Apollo hosts (the protocol of Moonlight and Artemis), PIN and one-time-PIN pairing, app list with box art, hardware H.264 decoding, touch gamepad, mouse and keyboard
+Maintainer: samcejko
+Author: samcejko
+Section: Games
+Depends: firmware (>= 6.0), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Version: 0.1.0
+Installed-Size: 1752
+Homepage: https://github.com/samcejko/artlight-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.artlight/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.artlight-rounded-97a1fc1234.png
+Filename: debs/com.samcejko.artlight_0.1.0_iphoneos-arm.deb
+Size: 1099522
+MD5sum: b651b9273feb10246f098c33ccbfea65
+SHA1: 91d2cfcdd6939645f487d31f02d796dd75f3eb50
+SHA256: d6f388125939cc7f3f535863f0ad9bb4ad65b3b9937c528baa4d7b57b5e1eb9a
+
+Package: com.samcejko.kostka
+Name: MC6
+Description: Launcher of Minecraft: Java Edition for iOS 6 (the game's own files from Mojang, run by a Java VM ported to 32-bit iOS). Unofficial, not affiliated with Mojang or Microsoft.
+Maintainer: samcejko
+Author: samcejko
+Section: Games
+Depends: firmware (>= 6.0), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Version: 0.0.4
+Installed-Size: 86416
+Homepage: https://github.com/samcejko/kostka-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.kostka/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.kostka-rounded-dc41a6ec09.png
+Filename: debs/com.samcejko.kostka_0.0.4_iphoneos-arm.deb
+Size: 32248986
+MD5sum: 8ec8288e50d42d96e69d707bc63b56d1
+SHA1: ca457af899413474b0ebea032fbdfb4e1576024e
+SHA256: 168994ff89d73b8bb8c6ee99d6bc23cbcc93addcb9b223c5bf66d3cbe9eb0d34
+
+Package: com.samcejko.nasa
+Name: NASA
+Version: 3.12-1
+Architecture: iphoneos-arm
+Description: The official NASA app of 2013 (3.12), revived: missions, images, videos, news, NASA TV and Third Rock Radio through a proxy
+Maintainer: samcejko <samuelkouba07@gmail.com>
+Author: NASA Ames Research Center; revived by samcejko
+Section: Education
+Priority: optional
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Homepage: https://github.com/samcejko/nasa-ios6
+Tag: purpose::uikit
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.nasa/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.nasa-rounded-4c9ef96f92.png
+Filename: debs/com.samcejko.nasa_3.12-1_iphoneos-arm.deb
+Size: 8740332
+MD5sum: ac42d58e68a3949bda4a73ead3442976
+SHA1: b07c9733192915fd40e0466c5d1233e7cf78a74c
+SHA256: 0b0726bc02162a1a9a6b721d6546a888a8ce8f60c40e81f558047decb5d25d45
+
+Package: com.samcejko.revine
+Name: Revine
+Description: Brings the original Vine app (2.5.1) back on iOS 6 with the content of diVine: the Vine archive and new six-second videos, profiles, comments, hashtags, channels and search. Viewing only, no account needed. Install Vine 2.5.1 yourself.
+Maintainer: samcejko
+Author: samcejko
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 11.0)
+Conflicts: bag.xml.vineredirect
+Architecture: iphoneos-arm
+Version: 0.1.0
+Installed-Size: 816
+Homepage: https://github.com/samcejko/vine-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.revine/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.revine-rounded-3c40e17e8f.png
+Filename: debs/com.samcejko.revine_0.1.0-1_iphoneos-arm.deb
+Size: 437688
+MD5sum: 32840607b15c842f480f14bbe589d0ab
+SHA1: fb2a7e1670a2dfd79fc1014d5acb445bb57bd93e
+SHA256: 030360cb099f9b70474a9b6ca307c72d90242fc51d0a149a5f2a09db5211a82a
+
+Package: com.samcejko.revine
+Name: Revine
+Description: Connects original Vine to diVine: real login, videos, social actions, profile editing and native six-second video uploads. Requires an original compatible Vine IPA installed separately.
+Maintainer: samcejko
+Author: samcejko
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 6.0), firmware (<< 11.0)
+Conflicts: bag.xml.vineredirect
+Architecture: iphoneos-arm
+Version: 0.3.0
+Installed-Size: 916
+Homepage: https://github.com/samcejko/vine-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.revine/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.revine-rounded-3c40e17e8f.png
+Filename: debs/com.samcejko.revine_0.3.0_iphoneos-arm.deb
+Size: 502978
+MD5sum: 2b1845e74da8b2047c3b9387639d643a
+SHA1: ee125f49d2eeb7ce2c78d880ba70b388881d2d18
+SHA256: 32e043e4af92ac90f033b99f5a65225680afb0bfa2fde69d7b57b693ee921868
+
+Package: com.samcejko.wazzup
+Name: Wazzup (W.I.P)
+Description: Unofficial WhatsApp linked-device client for iOS 6 [W.I.P]: 1:1 voice and video calls, text and group chats, as a linked device like WhatsApp Web
+Maintainer: samcejko
+Author: samcejko
+Section: Social
+Depends: firmware (>= 6.0), firmware (<< 8.0)
+Architecture: iphoneos-arm
+Version: 0.1.1
+Installed-Size: 2916
+Homepage: https://github.com/samcejko/whatsapp-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.wazzup/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.wazzup-rounded-dd6c487a30.png
+Filename: debs/com.samcejko.wazzup_0.1.1_iphoneos-arm.deb
+Size: 1685960
+MD5sum: 29d27a8f4a287e979a8c7adf3cc44742
+SHA1: cc0b349654f31fe580c9da644cd4e091328a0dc8
+SHA256: a6b6f880f777e36e43b56187d8ed6e0308ce75c03d02d06daf40db6675207b4a
+
+Package: com.samcejko.shuttercalc
+Name: ShutterCalc
+Description: Camera math scanner and solver for iOS 6 with step-by-step solutions
+Maintainer: samcejko
+Author: samcejko
+Section: Education
+Depends: firmware (>= 6.0), firmware (<< 7.0)
+Architecture: iphoneos-arm
+Version: 1.0.6
+Installed-Size: 2336
+Homepage: https://github.com/samcejko/photomath-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.shuttercalc/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.shuttercalc-rounded-12b4a0b166.png
+Filename: debs/com.samcejko.shuttercalc_1.0.6_iphoneos-arm.deb
+Size: 1263112
+MD5sum: 0b80deb8424842a2cd6d0590ca540d30
+SHA1: 7bf8e7d0fca7a82769c5fdc61180f18947c59701
+SHA256: 4d7601b79937f56af18ad314805b49515ba4d629e9ef16bbc6ff5bbe99cb3b5f
+
+Package: com.samcejko.shuttercalc
+Name: ShutterCalc
+Description: Camera math scanner and solver for iOS 5-10 with step-by-step solutions
+Maintainer: samcejko
+Author: samcejko
+Section: Education
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 1.0.8
+Installed-Size: 2200
+Homepage: https://github.com/samcejko/photomath-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.shuttercalc/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.shuttercalc-rounded-12b4a0b166.png
+Filename: debs/com.samcejko.shuttercalc_1.0.8_iphoneos-arm.deb
+Size: 1187594
+MD5sum: c18b8bb3b5727a40b1f70cfae7652c00
+SHA1: 9cbb2fe1f4ce7ab2ac494304cf4de87612705e09
+SHA256: 8c1ea04ac9804579282181f3428337096c93060e4d92efa1057b54d88a01dc70
+
+Package: com.samcejko.shazamer
+Name: Shazamer
+Description: Music recognition client for iOS 6 with direct-from-device Shazam API integration and lyrics
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 1.0.0
+Homepage: https://github.com/samcejko/shazamer-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.shazamer/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.shazamer-rounded-1c8b50cb46.png
+Filename: debs/com.samcejko.shazamer_1.0.0_iphoneos-arm.deb
+MD5sum: a9c45efd320df75a6f0d2296e7db24a8
+SHA1: 4c3ce3171ff19c6c1579539fd8a56a61b823e919
+SHA256: 97511cb8b5346cd9ce862041a2e6d373b0e1463811c554066c9519b4bca93805
+Size: 607892
+
+Package: com.samcejko.shazamer
+Name: Shazamer
+Description: Music recognition client for iOS 6 with direct-from-device Shazam API integration and lyrics
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 1.0.6
+Installed-Size: 1072
+Homepage: https://github.com/samcejko/shazamer-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.shazamer/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.shazamer-rounded-1c8b50cb46.png
+Filename: debs/com.samcejko.shazamer_1.0.6_iphoneos-arm.deb
+Size: 631088
+MD5sum: edf93511f2e2d41d969c8d10e08e1252
+SHA1: d343477196b5a67fe955b8f25bb5ae1df0b69ac3
+SHA256: c917f1cf88e90c44fb729f61bdcd540e3d984da7ecd3e4817f78fcddb5f02597
+
+Package: com.samcejko.timetable
+Name: TimeTable
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: Worldwide public transport and Russian commuter/suburban trains (Yandex.Raspisaniya + Transitous) for iOS 5-10: live departures with delays and platforms, journey planning, nearby stops, favourites.
+Maintainer: samcejko
+Author: samcejko
+Section: Utilities
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Homepage: https://github.com/samcejko/timetable-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.timetable/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.timetable.png
+Filename: debs/com.samcejko.timetable_1.2.1_iphoneos-arm.deb
+Size: 770952
+MD5sum: 64f07244407df80c9c72fc36a4a2358d
+SHA1: 8858f1bb3f750ac3c996d3edff19b914b534c49a
+SHA256: 2d121b9c0ef07322a7ec4ce03b1f6a4613f2cb6e0c93473a24865e3d43d40846
+
+Package: com.samcejko.redditor
+Name: Reddie
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: Community discussion and forum reader for iOS 5-10. Browse popular and custom communities, search posts, read self-text threads, and view nested comments.
+Maintainer: samcejko
+Author: samcejko
+Section: Social
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.redditor/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.redditor.png
+Filename: debs/com.samcejko.redditor_1.2.1_iphoneos-arm.deb
+Size: 574918
+MD5sum: 36704245a022bcf08c1f9a20984c6ca4
+SHA1: 947a26c9deb2fd26292e135b4e704c9cd53ea738
+SHA256: 22f926cf45c7bebd810da14f64cd540e0cf5d386392e34e74e9e6fea900ccd54
+
+Package: com.samcejko.atvremote
+Name: TV Remote
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: Modern Android TV, Google TV, and Smart TV remote controller for iOS 5-10 with D-pad navigation, media buttons, touchpad mouse mode, remote keyboard text entry, and custom network protocol support.
+Maintainer: samcejko
+Author: samcejko
+Section: Utilities
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.atvremote/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.atvremote.png
+Filename: debs/com.samcejko.atvremote_1.2.1_iphoneos-arm.deb
+Size: 633090
+MD5sum: 8864312890bd37a1bc62c5a96203c8d9
+SHA1: 86b5abb0756792a5d80d476fec10a5773849dfd3
+SHA256: 5ccdf9ae57826eda520a77b8c7267cc265f0c21dd1f82a91fa08c4e36027ff49
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>W.I.P. Wazzup (W.I.P)</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<div class="lang"><a href="index.cs.html">Česky</a></div>
+<div class="hdr">
+  <img class="appicon" src="../../icons/com.samcejko.wazzup-rounded-dd6c487a30.png" alt="">
+  <div class="hdrt"><h1>W.I.P. Wazzup (W.I.P)</h1><p>WhatsApp as a linked device: 1:1 voice and video calls, chats</p></div>
+</div>
+<div class="box"><p>An unofficial WhatsApp client for iPhone and iPad in the glossy look of iOS 6. It links to your own account the way WhatsApp Web and Desktop do - you scan a QR code once from WhatsApp on your phone - and then places and receives 1:1 voice and video calls and exchanges text, group chats, media and voice messages, all from the device. Everything runs in the app: its own modern TLS 1.2, the Noise handshake, the Signal end-to-end encryption and the call media stack, so a system from 2012 talks to today's WhatsApp servers directly. No proxy and no server in the middle: your messages and keys never leave the device.</p></div>
+<h2>Features</h2>
+<div class="box"><ul>
+<li>Work-in-progress WhatsApp linked-device client; hardware testing limitations are listed below.</li>
+<li>QR-based account linking, with device keys kept locally.</li>
+<li>Text conversations and group chats.</li>
+<li>Media and voice messages, delivery receipts and read receipts.</li>
+<li>The build includes incoming and outgoing one-to-one voice and video calling code.</li>
+<li>An on-device TLS, Noise and Signal encryption stack.</li>
+<li>The calling stack includes MLow reception and Opus transmission.</li>
+<li>Classic iOS 6 appearance, iPhone and iPad layouts, Czech and English.</li>
+</ul></div>
+
+<h2>Good to know</h2>
+<div class="box"><ul>
+<li>Version 0.1.2 is compiled only, explicitly without testing. Still W.I.P.</li>
+<li>Encrypted group sending is not implemented; such messages fail explicitly instead of attempting incorrect one-to-one encryption.</li>
+<li>This update does not confirm working voice/video calls. Missing media is not presented as a successful call.</li>
+<li>Receiving while the app is terminated is unresolved. Foreground recovery and legacy VoIP keep-alive do not replace push notifications.</li>
+<li>#22 requests a Reddit client and is not a WhatsApp bug.</li>
+</ul></div>
+
+
+
+
+<h2>What's new in 0.1.2</h2>
+<div class="box"><ul>
+<li>#25/#70: connection recovery runs on the client thread; quiet chats no longer trigger repeated resets. Remove blocking fallback probes from the UI thread and overlapping client lifecycles.</li>
+<li>#36: manual connection refresh and connection state. Explicit voice-note Cancel, cancellation when leaving/locking and protection against delayed sends.</li>
+<li>#25: retry missing avatars after a delay or manual refresh.</li>
+<li>#25/#83: calls remain connecting until incoming audio, with a media timeout and audio-start failure reporting.</li>
+<li>#52: offer the armv7 package on iOS 6–10. Compiled only, without runtime tests.</li>
+</ul></div>
+
+<h2>Package</h2>
+<div class="box list">
+  <div class="row"><span class="k">Version</span><span class="v">0.1.2</span></div>
+  <div class="row"><span class="k">Size</span><span class="v">3.8 MB</span></div>
+  <div class="row"><span class="k">Updated</span><span class="v">2026-10-27</span></div>
+  <div class="row"><span class="k">Requires</span><span class="v">iOS 6.0 or later, below iOS 11.0 (32-bit); iOS 15.0 or later (64-bit)</span></div>
+</div>
+<div class="box list">
+  <a class="row link" href="../../feedback/index.html"><span class="k">Report a bug or send an idea</span><span class="chev">›</span></a>
+
+  <a class="row link" href="https://github.com/samcejko/whatsapp-ios6"><span class="k">Source code on GitHub</span><span class="chev">›</span></a>
+
+
+  <a class="row link" href="https://ko-fi.com/samcejko"><span class="k">Support the development</span><span class="chev">›</span></a>
+
+</div>
+
+<div class="box list">
+  <a class="row link" href="apple-magnifier://install?url=https%3A%2F%2Fgithub.com%2Fsamcejko%2Fwhatsapp-ios6%2Freleases%2Fdownload%2Fv0.1.2%2FWazzup-0.1.2-arm64.ipa"><span class="k">Install with TrollStore (iOS 14–17, no jailbreak)</span><span class="chev">›</span></a>
+  <a class="row link" href="https://github.com/samcejko/whatsapp-ios6/releases/download/v0.1.2/Wazzup-0.1.2-arm64.ipa"><span class="k">Download the IPA for TrollStore</span><span class="chev">›</span></a>
+</div>
+
+<p class="foot">Unofficial apps by samcejko, not affiliated with or endorsed by Twitch, Google, Apple, TikTok, Instagram, Meta, Spotify, Kick, NVIDIA, Mojang, Microsoft, OpenRouter, Vine, X, diVine or the Moonlight, Sunshine and Apollo projects.</p>
+<p class="foot"><a href="../../index.html">http://repo.samcejko.eu/</a></p>
+
+
+
+</body></html>

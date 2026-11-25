@@ -1,0 +1,109 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Tubie</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<div class="lang"><a href="index.cs.html">Česky</a></div>
+<div class="hdr">
+  <img class="appicon" src="../../icons/com.samcejko.tubie-rounded-e688109d2f.png" alt="">
+  <div class="hdrt"><h1>Tubie</h1><p>YouTube: videos, shorts, live streams, channels, comments</p></div>
+</div>
+<div class="box"><p>Tubie combines YouTube videos, Shorts, live broadcasts, playlists and local subscriptions with a classic iOS 6 player. Its built-in Studio adds read-only channel and per-video analytics, period comparisons and CSV export through the existing Google sign-in. Playback format availability and individual reports still depend on YouTube.</p></div>
+<h2>Features</h2>
+<div class="box"><ul>
+<li>Videos with a quality selector for formats supported by the device, plus full-screen playback.</li>
+<li>Playback speed from 0.5× to 2×, remembered for later videos; hold the picture for temporary 2×.</li>
+<li>Resume videos where you stopped and jump between available chapters.</li>
+<li>A mini player while you browse, background audio and lock-screen playback controls.</li>
+<li>Shorts in a vertical player with swipe navigation, plus live streams.</li>
+<li>Channels with videos, Shorts, live broadcasts and playlists; related videos and continuous playlist playback.</li>
+<li>Search suggestions and filters, plus comments and replies.</li>
+<li>Subscriptions, watch history and watch later kept locally without requiring a Google account.</li>
+<li>Optional Google sign-in with a device code; account features depend on Google's permissions.</li>
+<li>SponsorBlock with configurable categories, captions including automatic captions, and Return YouTube Dislike counts.</li>
+<li>Double-tap to seek, drag for volume and brightness, and keep the screen on during playback.</li>
+<li>Open YouTube links inside Tubie and supported Twitch, Kick and TikTok links in the sister apps.</li>
+<li>Songs sent from Shazamer start automatically after a confident recording match; uncertain matches open search.</li>
+<li>Playback recovery tries the configured resolver even when YouTube returns a bot check or no usable native formats.</li>
+<li>Studio in Library: actual channel reports for 7, 28 or 90 days using the existing sign-in.</li>
+<li>Studio shows views, watch minutes, average view duration and percentage, likes, comments, shares and subscribers gained/lost.</li>
+<li>Open individual video analytics from top videos, including that video's period comparison.</li>
+<li>Compare matching available days with the previous period; missing data and a zero percentage baseline stay explicit.</li>
+<li>Switch the daily chart between views, watch minutes and net subscriber change; tap a bar for exact daily values.</li>
+<li>On-demand Studio reports for countries, devices, operating systems, traffic sources, content types and playback locations, where Google supplies data.</li>
+<li>Export detailed Studio reports and comparisons to CSV locally; these reports need no new Cloud setup or helper server.</li>
+<li>Light and dark themes, classic iOS 6 controls on both device builds, Czech and English.</li>
+</ul></div>
+
+<h2>Good to know</h2>
+<div class="box"><ul>
+<li>Playback recovery uses the configured resolver even after a bot check or missing native formats. Video access still depends on YouTube and the resolver; iOS 6 HLS speed changes require an available MP4 fallback.</li>
+<li>Playback checked on an iPad 2 with iOS 6.1.3 and a rootless iPhone with iOS 16</li>
+<li>Studio reads existing data only: it does not upload or edit videos or moderate comments. Reports can be delayed or empty; the subscriber/non-subscriber breakdown is omitted because Google returned errors in testing.</li>
+<li>ARMv7 package: iOS 5.0–10.x. Hardware tests cover iOS 6.1.3 and 16.7.16; iOS 5 and 7–10 still need physical-device verification. Rootless ARM64 DEB requires iOS 15+, ARM64 IPA requires iOS 14+.</li>
+</ul></div>
+
+
+<h2>Screenshots (iPad, iOS 6)</h2>
+<div class="shots">
+<img src="../../screenshots/com.samcejko.tubie/01-home.jpg" alt="">
+<img src="../../screenshots/com.samcejko.tubie/02-watch.jpg" alt="">
+<img src="../../screenshots/com.samcejko.tubie/03-shorts.jpg" alt="">
+</div>
+
+
+<h2>Screenshots (iPhone, iOS 16)</h2>
+<div class="shots phone">
+<img src="../../screenshots/com.samcejko.tubie/iphone/01-watch.jpg" alt="">
+</div>
+
+
+<h2>What's new in 0.5.2</h2>
+<div class="box"><ul>
+<li>0.5.2: ARMv7 compatibility expanded to iOS 5.0–10.x. Backported video grids and pull-to-refresh, earlier table/image/rotation APIs and guarded media controls retain the classic iOS 6 appearance.</li>
+<li>0.5.1: Studio now includes per-video analytics, shares and average viewed percentage, using the existing sign-in.</li>
+<li>On-demand reports cover countries, devices, operating systems, traffic sources, content types and playback locations where Google provides data.</li>
+<li>Period comparisons use matching available days and handle a zero baseline explicitly; recent reporting delays do not silently become a full-period comparison.</li>
+<li>The daily chart switches between views, watch minutes and net subscriber change; a bar opens exact daily values.</li>
+<li>Detailed reports and comparisons export locally to CSV. No new Cloud project, helper server or account permissions are needed for these additions.</li>
+<li>0.5.0: Recover video and Shorts playback through the resolver even when YouTube refuses the native player response. Recognize DASH video/audio without requiring a progressive MP4.</li>
+<li>Native Studio with real reports, periods 7/28/90 days, daily chart and top videos. Separate channel/API permission errors.</li>
+<li>Restore video surface and keep-screen-on after returning to the player; cache converted segments and validate MP4 ranges.</li>
+<li>Classic iOS 6 switches, app dialogs and section headers on newer devices.</li>
+<li>0.4.4: Open songs recognized by Shazamer and start playback after matching the recording; uncertain results stay available in search.</li>
+<li>Playback speed works: iOS 6 cannot speed up an HLS stream, so another speed than 1× plays the video's 360p MP4 and 1× returns to full quality at the same spot; iOS 15+ changes the speed directly</li>
+<li>The chosen speed stays after a pause, buffering, the mini player and the background, and is remembered for the next videos; a speed pill in the player, also in full screen; 1.75× added</li>
+<li>Hold a finger on the picture for 2×, as on YouTube</li>
+<li>Links in descriptions, comments and on channel pages are tappable; YouTube links open in Tubie, links to Twitch, Kick and TikTok in the sister apps when they are installed</li>
+</ul></div>
+
+<h2>Package</h2>
+<div class="box list">
+  <div class="row"><span class="k">Version</span><span class="v">0.5.2</span></div>
+  <div class="row"><span class="k">Size</span><span class="v">945 KB</span></div>
+  <div class="row"><span class="k">Updated</span><span class="v">2026-10-24</span></div>
+  <div class="row"><span class="k">Requires</span><span class="v">iOS 5.0 or later, below iOS 11.0 (32-bit); iOS 15.0 or later (64-bit)</span></div>
+</div>
+<div class="box list">
+  <a class="row link" href="../../feedback/index.html"><span class="k">Report a bug or send an idea</span><span class="chev">›</span></a>
+
+  <a class="row link" href="https://github.com/samcejko/youtube-ios6"><span class="k">Source code on GitHub</span><span class="chev">›</span></a>
+
+
+  <a class="row link" href="https://ko-fi.com/samcejko"><span class="k">Support the development</span><span class="chev">›</span></a>
+
+</div>
+
+<div class="box list">
+  <a class="row link" href="apple-magnifier://install?url=https%3A%2F%2Fgithub.com%2Fsamcejko%2Fyoutube-ios6%2Freleases%2Fdownload%2Fv0.5.2%2FTubie-0.5.2-arm64.ipa"><span class="k">Install with TrollStore (iOS 14–17, no jailbreak)</span><span class="chev">›</span></a>
+  <a class="row link" href="https://github.com/samcejko/youtube-ios6/releases/download/v0.5.2/Tubie-0.5.2-arm64.ipa"><span class="k">Download the IPA for TrollStore</span><span class="chev">›</span></a>
+</div>
+
+<p class="foot">Unofficial apps by samcejko, not affiliated with or endorsed by Twitch, Google, Apple, TikTok, Instagram, Meta, Spotify, Kick, NVIDIA, Mojang, Microsoft, OpenRouter, Vine, X, diVine or the Moonlight, Sunshine and Apollo projects.</p>
+<p class="foot"><a href="../../index.html">http://repo.samcejko.eu/</a></p>
+
+
+
+</body></html>

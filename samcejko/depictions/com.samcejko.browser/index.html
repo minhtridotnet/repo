@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Surfari</title>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<div class="lang"><a href="index.cs.html">Česky</a></div>
+<div class="hdr">
+  <img class="appicon" src="../../icons/com.samcejko.browser-rounded-bf38eed7b5.png" alt="">
+  <div class="hdrt"><h1>Surfari</h1><p>A web browser that opens today's websites on iOS 6</p></div>
+</div>
+<div class="box"><p>Safari on iOS 6 cannot open most of today's websites: it cannot make the secure connections they require, and its 2012 engine does not understand their CSS and JavaScript. Surfari keeps the iOS 6 engine for drawing pages and does everything around it that the old system cannot: its own TLS 1.2 stack with current root certificates, modern CSS rewritten for the old engine, modern JavaScript translated by its own transpiler, WOFF2 fonts and WebP images converted on the device. No proxy and no relay server: pages come straight from the sites you visit. The other apps here offer "Open in Surfari" for web links.</p></div>
+<h2>Features</h2>
+<div class="box"><ul>
+<li>Open modern HTTPS sites through the built-in TLS stack and certificate store.</li>
+<li>Compatibility rewriting for modern CSS, including variables, flexbox, grid and newer selectors.</li>
+<li>JavaScript transpilation and compatibility helpers for newer scripts, modules and web APIs.</li>
+<li>Convert WebP images and WOFF2 fonts on the device for pages the old engine could not display directly.</li>
+<li>Built-in ad and tracker filters, plus cookie-banner hiding.</li>
+<li>Reader mode, find on page and page translation.</li>
+<li>Downloads, page source, printing and saving a page as PDF.</li>
+<li>Continue page audio and video in the background or with the screen locked, with playback controls.</li>
+<li>Save passwords for secure sites in the device keychain; use private browsing when desired.</li>
+<li>Tabs, bookmarks, history, search suggestions, selectable search engines and swipe gestures.</li>
+<li>Dark interface and dark pages, with Czech and English controls.</li>
+<li>Address/search keyboard with a space bar for multi-word queries.</li>
+<li>Independent saved URL, title and scroll position per tab; switching replaces the live WebView and keeps one page in memory.</li>
+<li>Rounded iOS 6 app icons in all eight installed sizes.</li>
+</ul></div>
+
+<h2>Good to know</h2>
+<div class="box"><ul>
+<li>iOS 6.x on armv7 only; version 1.2.1 tested on iPad 2 / iOS 6.1.3. iOS 7 and later are not supported.</li>
+<li>The page engine is iOS 6's own WebKit, which gets no security updates: a malicious page could take over the app. Keep certificate verification on and avoid banking or passwords you use elsewhere</li>
+<li>Do not keep a Surfari IPA installed at the same time as this package: they share one app identity</li>
+</ul></div>
+
+
+<h2>Screenshots (iPad, iOS 6)</h2>
+<div class="shots">
+<img src="../../screenshots/com.samcejko.browser/20-home-1.2.1.png" alt="">
+<img src="../../screenshots/com.samcejko.browser/21-search-1.2.1.png" alt="">
+</div>
+
+
+
+<h2>What's new in 1.2.1</h2>
+<div class="box"><ul>
+<li>1.2.1: Fix the missing search space bar, pending-page URLs and tab switching, stale redirects/frame callbacks and cross-tab back history. Preserve per-URL scroll positions and round all eight icon sizes. iOS 6.x support remains unchanged.</li>
+<li>Play in the background (Settings &gt; Pages, on by default): music and videos of a page go on when you leave the app or lock the screen - an internet radio, a YouTube video, a live stream; the lock screen's and a headset's buttons pause and resume them and the lock screen shows the page's title</li>
+<li>Log in with cookies (long press Reload) keeps the cookies for the page's own site, a leading www. dropped - no longer for the last two labels of its name, which for sites under co.uk, github.io and the like would have sent them to every site there</li>
+<li>Cookies of the same name that the site had set before are replaced, and if the import does not take, everything is put back as it was</li>
+<li>The clipboard is read only with the Paste button above the keyboard; more paste formats are understood (document.cookie in quotes, Set-Cookie lines, request headers, Copy as cURL, JSON exports, cookie tables, cookies.txt), and of a file with many sites only this site's cookies are taken</li>
+<li>Logged-out pages from the cache are no longer shown after the login; on an iPhone the text box stays above the keyboard</li>
+</ul></div>
+
+<h2>Package</h2>
+<div class="box list">
+  <div class="row"><span class="k">Version</span><span class="v">1.2.1</span></div>
+  <div class="row"><span class="k">Size</span><span class="v">2.0 MB</span></div>
+  <div class="row"><span class="k">Updated</span><span class="v">2026-10-24</span></div>
+  <div class="row"><span class="k">Requires</span><span class="v">iOS 6.x only, armv7</span></div>
+</div>
+<div class="box list">
+  <a class="row link" href="../../feedback/index.html"><span class="k">Report a bug or send an idea</span><span class="chev">›</span></a>
+
+
+  <a class="row link" href="https://ko-fi.com/samcejko"><span class="k">Support the development</span><span class="chev">›</span></a>
+
+</div>
+
+<p class="foot">Unofficial apps by samcejko, not affiliated with or endorsed by Twitch, Google, Apple, TikTok, Instagram, Meta, Spotify, Kick, NVIDIA, Mojang, Microsoft, OpenRouter, Vine, X, diVine or the Moonlight, Sunshine and Apollo projects.</p>
+<p class="foot"><a href="../../index.html">http://repo.samcejko.eu/</a></p>
+
+
+
+</body></html>

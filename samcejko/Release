@@ -1,0 +1,20 @@
+Origin: samcejko
+Label: samcejko
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: Free apps for jailbroken iOS 6 by samcejko
+MD5Sum:
+ d006faf0d4ad1235c872f7cd7b5f328c 23569 Packages
+ 06f632c69535c5273b67c56cefcf0193 6304 Packages.gz
+ 5abc5617694500a040086498f1bf475e 6067 Packages.bz2
+SHA1:
+ c6df04249a735d7bdc1b991a4cda9a00cd3d033e 23569 Packages
+ 6b78bd62adf9522b26d2490b7b5872e4d5bdc7d0 6304 Packages.gz
+ 441a1f45c8d7329a67773b27f684d600e9a0d7a8 6067 Packages.bz2
+SHA256:
+ 489ee2da68e4edbc3c4b4fdbabacfb7e647ff2fee183778c13f18bd520dea72b 23569 Packages
+ 2585fb88c8ebc59054837205cd1eb5ace0c9764cebe348c44368645cf1f10ecb 6304 Packages.gz
+ da03c1f64b80367b3139eff42e0bda140bdc8db933c1cb014d954032862742e8 6067 Packages.bz2
