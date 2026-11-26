@@ -97,10 +97,10 @@ Homepage: https://github.com/samcejko/instagram-ios6
 Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.shutter/
 Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.shutter-rounded-abc13c3ff2.png
 Filename: debs/com.samcejko.shutter_0.3.8_iphoneos-arm.deb
+Size: 1580832
 MD5sum: 0e66a24437d48246f15326f862cd6d1e
 SHA1: 3815eb75ced148244234c227698992c8f69c4603
 SHA256: 16cdcffb51ae3ab47732c156fde41d5e705a7b52f0d137f0c1ceec7a0f303b10
-Size: 1580832
 
 Package: com.samcejko.shutter
 Name: Gramify
@@ -134,10 +134,10 @@ Homepage: https://github.com/samcejko/youtube-ios6
 Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.tubie/
 Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.tubie-rounded-e688109d2f.png
 Filename: debs/com.samcejko.tubie_0.4.3_iphoneos-arm.deb
+Size: 982956
 MD5sum: 8415d11de1bf34bfb00120b50fd5faff
 SHA1: 045ceef30f013b6478ebc21c680d4612cdd65218
 SHA256: e61891211bc428c56ce06a3203b7abc40a7bfe07d5ca2d513f74058e1891ac28
-Size: 982956
 
 Package: com.samcejko.tubie
 Name: Tubie
@@ -324,7 +324,7 @@ Installed-Size: 816
 Homepage: https://github.com/samcejko/vine-ios6
 Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.revine/
 Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.revine-rounded-3c40e17e8f.png
-Filename: debs/com.samcejko.revine_0.1.0-1_iphoneos-arm.deb
+Filename: debs/com.samcejko.revine_0.1.0_iphoneos-arm.deb
 Size: 437688
 MD5sum: 32840607b15c842f480f14bbe589d0ab
 SHA1: fb2a7e1670a2dfd79fc1014d5acb445bb57bd93e
@@ -420,10 +420,10 @@ Homepage: https://github.com/samcejko/shazamer-ios6
 Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.shazamer/
 Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.shazamer-rounded-1c8b50cb46.png
 Filename: debs/com.samcejko.shazamer_1.0.0_iphoneos-arm.deb
+Size: 607892
 MD5sum: a9c45efd320df75a6f0d2296e7db24a8
 SHA1: 4c3ce3171ff19c6c1579539fd8a56a61b823e919
 SHA256: 97511cb8b5346cd9ce862041a2e6d373b0e1463811c554066c9519b4bca93805
-Size: 607892
 
 Package: com.samcejko.shazamer
 Name: Shazamer
@@ -496,3 +496,78 @@ MD5sum: 8864312890bd37a1bc62c5a96203c8d9
 SHA1: 86b5abb0756792a5d80d476fec10a5773849dfd3
 SHA256: 5ccdf9ae57826eda520a77b8c7267cc265f0c21dd1f82a91fa08c4e36027ff49
 
+Package: com.samcejko.aichat
+Name: AI Chat
+Description: Multi-provider AI chat client for iOS 5-10 (universal)
+Maintainer: samcejko
+Author: samcejko
+Section: Utilities
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 0.4.2
+Installed-Size: 2612
+Homepage: https://github.com/samcejko/aichat-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.aichat/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.aichat-rounded-a17bd9885d.png
+Filename: debs/com.samcejko.aichat_0.4.2_iphoneos-arm.deb
+Size: 1411054
+MD5sum: bcf493e0d1a9900241be4966afe15a1a
+SHA1: 47c806739b9316ff564542160088d74478231a89
+SHA256: c42ac340f233c13782ada8baf30dfe7e1688e678f02cde5789016a7483b5eb7f
+
+Package: com.samcejko.pcapios
+Name: PCAPiOS
+Description: Network request inspector and packet capture utility for iOS 5-10 (like PCAPdroid): shows all device HTTP/HTTPS GET & POST requests, links, query arguments, form & JSON values, headers, and TLS SNI to help restore broken legacy apps and inspect unofficial clients. Includes a Substrate hook, local HTTP/CONNECT proxy, request replay over modern TLS, host rewriter, and PCAP/HAR/cURL export.
+Maintainer: samcejko
+Author: samcejko
+Section: Utilities
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 1.0.1
+Installed-Size: 1604
+Homepage: https://github.com/samcejko/PCAPiOS
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.pcapios/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.pcapios-rounded-66a2c4fa35.png
+Filename: debs/com.samcejko.pcapios_1.0.1_iphoneos-arm.deb
+Size: 1017996
+MD5sum: e93f2fc92f53e6fcbe353dd20efa93a6
+SHA1: 3003a489366b01d9516ed278dad17481d8ec4f9a
+SHA256: fb4b28cddedcf260f598042f0f4a4d7ff0b6f79da2a6cc5c907cbea934ec3975
+
+Package: com.samcejko.pcapios
+Name: PCAPiOS
+Description: Network request inspector and packet capture utility for iOS 5-10 (like PCAPdroid): shows all device HTTP/HTTPS GET & POST requests, links, query arguments, form & JSON values, headers, and TLS SNI to help restore broken legacy apps and inspect unofficial clients. Includes a Substrate hook, local HTTP/CONNECT proxy, request replay over modern TLS, host rewriter, and PCAP/HAR/cURL export.
+Maintainer: samcejko
+Author: samcejko
+Section: Utilities
+Depends: mobilesubstrate, firmware (>= 5.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 1.0.7
+Installed-Size: 1560
+Homepage: https://github.com/samcejko/PCAPiOS
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.pcapios/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.pcapios-rounded-66a2c4fa35.png
+Filename: debs/com.samcejko.pcapios_1.0.7_iphoneos-arm.deb
+Size: 1009828
+MD5sum: 08d15211f92d969038252fc4ceee2700
+SHA1: 774f85ffb6794d20f7fe9e96c2fa0f572c64b1ae
+SHA256: 2dc8824bf3bdebabe6675a9ffec0196d805071c519c89fb6a567912d771f23d5
+
+Package: com.samcejko.tikieplus
+Name: TikTak+
+Description: Direct TikTok viewer with Explore, public profiles, video and photo playback, comments, saved posts and verified local session import. No helper server required; some TikTok account/search endpoints may be unavailable.
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 6.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 0.5.1
+Installed-Size: 2120
+Homepage: https://github.com/samcejko/tiktok-plus-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.tikieplus/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.tikieplus-rounded-72d125e005.png
+Filename: debs/com.samcejko.tikieplus_0.5.1_iphoneos-arm.deb
+Size: 1212148
+MD5sum: ac0af2f0389f62a683e8debf7e508beb
+SHA1: d1c64f3045c385ce7fb2cf593ffa0691a50d7f3d
+SHA256: 6da9f27f4c8766128632e7e80668ab0f88c970e989d23460f642fb40b3886467
