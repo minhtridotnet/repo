@@ -124,6 +124,8 @@
 /* iOS 6 Safari: ES5 only (no let/const, arrow functions, fetch or HTML5 form validation) */
 var S = {"hint_bug": "What happens, what you did before it and what you expected. The more detail the better.", "hint_idea": "What you would like the app to do, and why.", "hint_newapp": "Which app or service you miss on iOS 6 and what it should do.", "hint_other": "Your message.", "need_text": "Please write a description first.", "need_app": "Please pick the app.", "sending": "Sending…"};
 (function () {
+  var REDIRECT_URL = 'api/submit/index.html'; // <-- Replace with your custom URL
+
   function $(id) { return document.getElementById(id); }
   function val(id) { var e = $(id); return e ? e.value : ''; }
   function show(id, on) { var e = $(id); if (e) { e.style.display = on ? '' : 'none'; } }
@@ -171,10 +173,13 @@ var S = {"hint_bug": "What happens, what you did before it and what you expected
     var type = val('type');
     if (type !== 'newapp' && type !== 'other' && !val('app')) { alert(S.need_app); return false; }
     if (val('text').replace(/^\s+|\s+$/g, '').length < 3) { alert(S.need_text); $('text').focus(); return false; }
+    
     var b = $('send');
     b.disabled = true;
     setText(b, S.sending);
-    return true;
+    
+    window.location.href = REDIRECT_URL;
+    return false;
   };
 })();
 </script>
