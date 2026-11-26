@@ -571,3 +571,57 @@ Size: 1212148
 MD5sum: ac0af2f0389f62a683e8debf7e508beb
 SHA1: d1c64f3045c385ce7fb2cf593ffa0691a50d7f3d
 SHA256: 6da9f27f4c8766128632e7e80668ab0f88c970e989d23460f642fb40b3886467
+
+Package: com.samcejko.imic
+Name: MicRemote
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: Real-time wireless microphone streamer for iOS 5-10. Streams live audio directly from device microphone to PC/Mac via AndroidMic protocol (port 54345), low-latency UDP/TCP, or live HTTP WAV stream without saving audio.
+Maintainer: samcejko
+Author: samcejko
+Section: Utilities
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.imic/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.imic.png
+Filename: debs/com.samcejko.imic_1.2.1_iphoneos-arm.deb
+Size: 338332
+MD5sum: c0ac5b26bb641f3e368fe0f79bce575e
+SHA1: b73c42651ea0b62aee1514cf0cc70cd89ad5bb4e
+SHA256: e47e398d3fd2467da4355814cd4a0ed46bcbbee7391e44cff1c46ae0b605f1b7
+
+Package: com.samcejko.realnews
+Name: RealNews
+Version: 1.0.13
+Architecture: iphoneos-arm
+Description: RSS and Atom feed reader for iOS 6 with support for all XML fields and custom metadata
+Maintainer: samcejko
+Author: samcejko
+Section: News
+Depends: firmware (>= 5.0), firmware (<< 11.0)
+Homepage: https://github.com/samcejko/realnews-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.realnews/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.realnews.png
+Filename: debs/com.samcejko.realnews_1.0.13_iphoneos-arm.deb
+Size: 725534
+MD5sum: 122f9ac2e1c727a92ea7882a9b609373
+SHA1: a9d599d47624cbdaab26db0a14507a9c55b6b4dc
+SHA256: e58a1bb0b9070bfa74ec40522ceabb7196a3a59e6c968dc97685f13dba90a409
+
+Package: com.samcejko.wasp
+Name: Wasp
+Description: MusicBee Remote client for iOS 6 with Bonjour auto-discovery, lyrics, and library browsing
+Maintainer: samcejko
+Author: samcejko
+Section: Multimedia
+Depends: firmware (>= 6.0), firmware (<< 11.0)
+Architecture: iphoneos-arm
+Version: 1.0.1
+Installed-Size: 724
+Homepage: https://github.com/samcejko/wasp-ios6
+Depiction: https://minhtridotnet.github.io/repo/samcejko/depictions/com.samcejko.wasp/
+Icon: https://minhtridotnet.github.io/repo/samcejko/icons/com.samcejko.wasp-rounded-13a7d8c5ea.png
+Filename: debs/com.samcejko.wasp_1.0.1_iphoneos-arm.deb
+Size: 493438
+MD5sum: 307f40511e742d88e337f280d7c03447
+SHA1: e84fa5a31ecc18230467d36f2989b4b2d853fab9
+SHA256: 7c1ba3da0c94207e1f2fd1681040d23eb4ef64ba8fb0ddb55de700a07516fe44

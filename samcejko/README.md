@@ -8,9 +8,9 @@ This is a partially archived Samcejko's repository. Because of the drama happene
 
 ## Current Archive Status
 
-**22/42** tweaks archived
+**25/42** tweaks archived
 
-**30** total .deb files with varying versions
+**33** total .deb files with varying versions
 
 All tweaks currently available are iphoneos-arm only. No iphoneos-arm64 tweaks are available for now (also all Sileo depictions are lost).
 
@@ -40,12 +40,16 @@ Added in 27/11/2026
 - AI Chat 0.4.2
 - PCAPiOS 1.0.1, 1.0.7
 - TikTak+ 0.5.1
+- MicRemote 1.2.1
+- RealNews 1.0.13
+- Wasp 1.0.1
 
 ## Thanks to
 - Byarpet Repo (From https://repo.byarpet.my.id/ for Artlight, Chirpie, City VOD, Gramify, MC6, Muzika, NASA, Reddie, Revine, Shazamer, ShutterCalc, Surfari, TikTak, TikTak+, TimeTable, Tubie, TV Remote, Twitcher, Vidbox)
 - elibect franco607 (From Internet Archive for Artlight, Surfari, City VOD, MC6, NASA 2013, Revine, Shazamer, Gramify, ShutterCalc, Wazzup)
 - No_Glass_387 (From Reddit for AI Chat, Muzika, PCAPiOS, TikTak+)
 - minhtridotnet (From myself for Tubie)
+- Xalk07 (From GitHub for Artlight, MicRemote, PCAPiOS, RealNews, Wasp)
 
 ## How can you contribute to the archive
 
