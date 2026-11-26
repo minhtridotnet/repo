@@ -105,4 +105,5 @@ button.button[disabled] { opacity: .6; }
 .archive-meter::-webkit-progress-bar { background: #e4e8ed; }
 .archive-meter::-webkit-progress-value { background: #4c7fd2; }
 .archive-meter::-moz-progress-bar { background: #4c7fd2; }
-.unavailable .row.app { background: #e3e5e8; }
+.archive-unavailable .row.app { background: #e3e5e8; }
+.unavailable .row.link { background: #e3e5e8; }
